@@ -11,5 +11,7 @@ The app starts with 4 Cards added, which can all be changed to whatever name, or
 The button 'Add a Card' adds a card to the current Card pool, but with -100 initiative points and 8 health.
 Everytime the D20 button is clicked on any player card, it "rolls" a 20 sided die, and then gets sorted in the list automatically.
 
+Every animation done with the list and cards of players/creatures is done with a community created React library called [React FlipMove](https://github.com/joshwcomeau/react-flip-move) made by Joshua Comeau.
+
 ## What you need:
 You need to have Node installed on your system, and run 'npm start' to start up the React App. From here you want to go to your browser and type in 'localhost:3000', this will take you to the Initiative Tracker.
