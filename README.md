@@ -1,4 +1,4 @@
-# Creating a Dungeons & Dragons Initiative Roll ORder Tracker with JavaScript and React.js
+# Creating a Dungeons & Dragons Initiative Roll Order Tracker with JavaScript and React.js
 With the help of Filip Danic on [Youtube](https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w) I have made an Dungeons & Dragons Initiative tracker to learn about React.js.
 
 This is one of my first projects using React.js and he does a good job explaining how it works and what uses it has.
