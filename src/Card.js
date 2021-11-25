@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Input from "./components/Input";
 import Button from "./components/Button";
+import ImageComponent from "./components/ImageComponent";
 import { rollD20 } from "./utils";
 import { ElementType } from "./constants";
 import PropTypes from "prop-types";
@@ -10,6 +11,13 @@ class Card extends Component {
     const { element, onUpdateField, onInitiativeChange, onRemove } = this.props;
     return (
       <div className="card">
+
+        <ImageComponent 
+          url="images/user.png"
+          className="characterImage"
+          type="img"
+        />
+
         <Input
           label="Name"
           type="text"

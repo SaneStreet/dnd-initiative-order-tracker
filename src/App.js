@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FlipMove from 'react-flip-move';
 import "./App.css";
 import Button from "./components/Button";
+import ImageComponent from "./components/ImageComponent";
 import Card from "./Card";
 import { randomId, updateListElement } from "./utils";
 import { initialState } from "./constants";

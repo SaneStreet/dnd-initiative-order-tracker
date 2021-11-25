@@ -13,6 +13,7 @@
   -webkit-appearance: none;
   margin: 12px auto;
   color: #000;
+  background: #b6b6b6;
 }
 
 .card input {
@@ -22,6 +23,7 @@
   border-right: none;
   font-size: 14px;
   -moz-appearance: textfield;
+  margin-top: 20px;
 }
 
 .card label {
@@ -33,13 +35,12 @@
 .card button {
   flex: 1;
   cursor: pointer;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
   background: none;
   opacity: 0.5;
   transition: 180ms all;
   font-size: 14px;
+  margin-top: 15px;
 }
 
   .card button:hover {
@@ -48,4 +49,10 @@
 
   .card label.wide-input {
     flex: 14;
+  }
+
+  .card .characterImage img {
+      margin: auto; 
+      width: auto;
+      height: auto;
   }

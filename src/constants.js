@@ -4,22 +4,23 @@ import PropTypes from 'prop-types';
 export const initialState = 
 [{
     id: randomId(),
-    name: 'Player 1',
+    //picture: imageLink(),
+    name: 'Aragorn',
     initiative: 20,
     hitpoints: 8,
   }, {
     id: randomId(),
-    name: 'Player 2',
+    name: 'Gimli',
     initiative: 19,
     hitpoints: 10,
   }, {
     id: randomId(),
-    name: 'Player 3',
+    name: 'Frodo',
     initiative: 18,
     hitpoints: 9,
   }, {
     id: randomId(),
-    name: 'Player 4',
+    name: 'Legolas',
     initiative: 17,
     hitpoints: 11,
   }]
@@ -35,4 +36,8 @@ export const initialState =
       PropTypes.number, 
       PropTypes.string]
     ),
+    image: PropTypes.oneOfType([
+      PropTypes.number,
+      PropTypes.string,
+    ])
   })
